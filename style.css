@@ -1,0 +1,458 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* navbar css start */
+
+.nav-item a{
+   
+    font-size: 18px;
+    font-weight: 400;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.img img{
+  height: 50px;
+  margin-bottom: 5px;
+}
+/* .login-ul{
+   margin-left: 50px !important;
+} */
+nav{
+    background-color: rgb(227, 227, 227);
+}
+.scarch-input{
+    width: 450px !important;
+    text-align: center;
+}
+/* navbar css end */
+
+/* header start  */
+
+.header h1{
+ font-weight: bold;
+ color: rgb(72, 66, 66);
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 50px;
+ 
+}
+.header{
+    
+    padding-top: 143px;
+}
+
+.header p {
+    color: black;
+    font-weight: 500;
+    font-size: 17px;
+}
+.header span {
+    color: rgb(13, 183, 13);
+}
+#phone{
+    outline: 0;
+    font-size: 25px;
+   
+}
+#phone:valid{
+  border-color:green;
+}
+#phone:focus:invalid{
+   border-color: red;
+}
+.button{
+    font-size: 20px;
+   width: 72%;
+   background-color: rgb(72, 66, 66);
+   color: white;
+   border: 1px solid rgb(72, 66, 66) ;
+   font-weight: bold;
+   border-radius: 5px ;
+}
+.numdiv p {
+    font-weight: 380;
+    font-size: 15px;
+}
+.button:hover{
+    background-color: rgb(51, 170, 51);
+    border:1px solid rgb(51, 170, 51);
+}
+
+
+
+@media (min-width:377px) and (max-width:767px) {
+    .nav-item button{
+        display: none
+    } 
+    .scarch-input{
+        width:100% !important;
+        text-align: center;
+    }
+    .header  h1{
+        font-size: 34px;
+    }
+    .header {
+        padding-bottom:100px ;
+        height: 90vh;
+    }
+    .carousel{
+        height: 100vh;  
+    }
+    .header p {
+        font-size: 15px;
+    }
+    #phone{
+        font-size: 14px;
+    }
+    #prevBtn1{
+        margin-left: 20px !important;
+      }
+    
+      #nextBtn1{
+        margin-right: 120px !important;
+      }
+    .button{
+        font-size:15px ;
+    }
+    .header img{
+        margin-bottom: 380px;
+        width: 85%;
+    }
+    .card{
+        /* margin-left: 67px !important; */
+        justify-content: center !important;
+        align-items: center !important;
+        display: flex !important;
+       width: 24rem !important;
+      
+    }
+    .bg-color{
+        height: 180vh;
+        margin-top: 150px !important;
+    }
+    .carousel-control-next-icon{
+        margin-top: 820px !important;
+        margin-right:20px ;
+    }
+    .carousel-control-prev-icon{
+        margin-top: 820px !important;
+        margin-left:20px ;
+    }
+    .color2{
+        height: 150vh !important;
+    }
+    
+    .teachers{
+        text-align: center;
+        height: 85vh !important;
+    }
+    .color3{
+        margin-top: 500px;
+        height: 79vh !important;
+    }
+    .join-div {
+        justify-content: center !important;
+        text-align: center !important;
+        display: flex !important;
+        justify-items: center !important;
+        align-items: center !important;
+    }
+    .join-div .col-12 {
+         margin-bottom: 20px !important;
+    }
+    .service h1{
+        font-size: 30px ;
+     }
+     .service h2 {
+         font-size: 19px;
+        
+     }
+     .service p {
+        font-size: 13px;
+     }
+     .footer-div p {
+        font-size: 14px;
+        text-align: center;
+      }
+      .footer-div h1{
+        font-size: 23px;
+        text-align: center;
+      }
+      .color2{
+      background-color: none !important;
+    }
+}
+
+@media  (max-width:1000px) {
+    .scarch-input{
+        width:100% !important;
+        text-align: center;
+    }
+    .nav-item button{
+        display: none
+    }
+    .header  h1{
+        font-size: 38px;
+    }
+    .header p {
+        font-size: 18px;
+    }
+    .button{
+        font-size:15px ;
+    }
+    .button{
+        font-size:15px ;
+    }
+    #phone{
+        font-size: 10px;
+    }
+   .card{
+    display: flex;
+     width: 14rem !important;
+     margin-right: 900px !important;
+     justify-content: center;
+   }
+   .carousel{
+    height: 45vh !important;
+}
+.service h1{
+    margin-top: 58px !important;
+}
+.card p  {
+    font-size: 12px;
+}
+.card-body span{
+    font-size: 13px;
+}
+
+#prevBtn1{
+    margin-left: 20px !important;
+  }
+
+  #nextBtn1{
+    margin-right: 20px !important;
+  }
+/* .carousel-control-next{
+   
+} */
+.color2{
+    height: 45vh !important;
+}
+
+.teachers h1 {
+    font-size: 20px !important;
+}
+
+}
+
+
+@media (min-width:200px) and (max-width:376px) {
+    .scarch-input{
+        width:100% !important;
+        text-align: center;
+    }
+    .carousel{
+        height: 160vh !important;
+        
+    }
+    .teachers{
+        text-align: center;
+        height: 102vh !important;
+    }
+    /* .larn{
+        margin-top: 76px !important;
+    }
+     */
+     .color2{
+        height: 110vh !important;
+    }
+    .color3{
+        margin-top: 0px;
+        height: 80vh !important;
+    }
+    .join-div {
+        justify-content: center !important;
+        text-align: center !important;
+        display: flex !important;
+        justify-items: center !important;
+        align-items: center !important;
+    }
+    .join-div .col-12 {
+         margin-bottom: 20px !important;
+    }
+    .service h1{
+        font-size: 30px ;
+     }
+     .service h2 {
+         font-size: 19px;
+        
+     }
+     .service p {
+        font-size: 13px;
+     }
+     .footer-div p {
+        font-size: 14px;
+      }
+      .footer-div h1{
+        font-size: 23px;
+      }
+}
+
+/* header end  */
+/* carousel start */
+.carousel{
+    height: 60vh;
+}
+.card{
+    padding: 5px;
+    margin: 15px;
+    box-shadow: 9px 7px 8px rgb(63, 61, 61);
+    width: 20rem !important;
+    height: 20rem !important;
+}
+.card:hover{
+    box-shadow: 9px 7px 8px rgb(255, 245, 245);
+    transition:0.9s;
+    transform: translate(10px, 12px);
+}
+
+.card-body h5{
+    padding-bottom: 14px;
+   
+}
+.card-body span {
+    font-weight: bold;
+    color: rgb(25, 23, 23);
+    font-size: 20px;
+}
+.card-body p {
+    margin-top: 4px;
+}
+.larn{
+    color: white;
+   margin-right: 15px;
+}
+.bg-color{
+    background-image: linear-gradient(rgb(0, 0, 25) , rgb(0, 0, 169));
+
+}
+#prevBtn1{
+    margin-left: -120px;
+  }
+
+  #nextBtn1{
+    margin-right: -110px;
+  }
+/* carousel end */
+/* teachers div start */
+.color2{
+    background-color: rgb(240, 218, 221);
+    height: 85vh;
+   
+}
+
+.teachers h1{
+    color: rgb(44, 42, 42); 
+    font-size: 43px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.teachers p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.teachers span{
+    padding-bottom: 12px;
+}
+/* teachers div end */
+
+/* join on div start  */
+
+.color3{
+    height: 30vh;
+    background-color: rgb(39, 39, 231);
+}
+.join-div{
+    padding-top: 70px;
+   
+}
+.join-div h2{
+    color: white;
+    font-size: 35px;
+
+}
+.join-div span {
+    font-size: 17px;
+    text-align: center;
+}
+
+/* join on div end */
+
+/* customar review start*/
+.service{
+    margin-top: 30px !important;
+    padding-top: 75px ;
+}
+.service h1{
+   font-size: 36px ;
+}
+.service h2 {
+    font-size: 23px;
+    color: black;
+    font-weight: 400;
+}
+/* customar review end*/
+
+/* footer div start */
+
+.footer-div p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .footer-div a {
+    text-decoration: none;
+    color: black;
+  }
+  .footer-div a:hover{
+   color: blue;
+  }
+  .footer-div h1{
+    font-weight: 300 !important;
+    padding-bottom: 5px;
+  }
+  .social-icons a{
+    
+      text-decoration: none;
+      font-size: 22px;
+      margin-right: 15px;
+      color: rgb(51, 51, 51);
+      display: inline-block;
+      transition: 0.5s;
+  }
+  
+  .social-icons a:hover {
+      color: rgb(4, 0, 255);
+      transform: translateY(-5px);
+  }
+  .copyright{
+    background-color: #ababab;
+  }
+  .copyright p{
+    font-size: 18px;
+  }
+  footer{
+    background-color:rgb(204, 183, 187) !important;
+  }
+  .footer-div{
+    margin-top: 20px;
+  }
+  
+
+
+
+  /**************************************************/
+
+
+ 

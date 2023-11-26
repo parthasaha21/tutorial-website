@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>tutorial demo page</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/4b8bc3066b.js" crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <!-- bootstrap cdm -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous"
+        >
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- navbar start -->
+        <div class="">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <div class="img">
+                        <img src="https://img.freepik.com/free-vector/globe-design-element-world-map-globe_460848-11653.jpg?w=2000" alt="">
+                        <a class="navbar-brand text-primary" href="#"> Demo Academy</a>
+                    </div>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll"
+                        aria-controls="navbarScroll"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <form class="d-flex btnn" role="search">
+                            <input
+                                class="form-control scarch-input me-2"
+                                type="search"
+                                placeholder="What do you want ?"
+                                aria-label="Search"
+                            >
+                            <button class="btn  btn-outline-primary" type="submit">Search</button>
+                        </form>
+
+                        <div class="collapse navbar-collapse w-20"></div>
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll  ms-auto login-ul" style="--bs-scroll-height: 100px;">
+                           
+                            <li class="nav-item">
+                                <button type="button" class="btn btn-outline-primary get mt-1 ms-5">Get Started</button>
+                            </li>
+                            <li class="nav-item log">
+                                <a class="nav-link text-primary" aria-current="page" href="login.html">Login</a>
+                            </li>
+                            <li class="nav-item sin">
+                                <a class="nav-link text-primary" href="#">Sign up</a>
+                            </li>
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Link
+                                </a>
+                                <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">Link</a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+         
+        <!-- navbar end -->
+        <!-- header start  -->
+        <div class="container">
+            <div class="header row">
+                <div class="col-12 col-md-6 col-lg-6 pt-1 ">
+                    <h1 class="ps-4">
+                        Crack your goal with
+                        <br>
+                        India’s top educators
+                    </h1>
+                    <p class="ps-4">
+                        Over
+                        <span>10 crore</span>
+                        learners trust us for their preparation
+                    </p>
+                    <form>
+                        <div class="numdiv ps-4">
+                            <label for="">Enter your phone number</label>
+                            <br>
+                            <input
+                                type="tel"
+                                id="phone"
+                                placeholder="xxx-xxx-xxxx"
+                                size="35"
+                                pattern="[0-9]{4}[0-9]{3}[0-9]{3}"
+                                required
+                            >
+                            <p class="pt-2">We’ll send an OTP for verification</p>
+                        </div>
+                        <button type="button" class="button mt-2 ms-4 py-2">Join for free</button>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <img src="https://img.freepik.com/free-vector/kids-online-lessons_52683-36818.jpg?w=1060&t=st=1693212177~exp=1693212777~hmac=399fc8e4ada1141a9d40411025544f2a534cb4344401e20e2b6aa2de5a720c5f" width="90%">
+                </div>
+            </div>
+        </div>
+        <!-- header end  -->
+        <!-- carousel start -->
+        <div class="bg-color">
+            <div class="larn mt-5 text-center pt-5">
+                <h5>Start Learning</h5>
+                <h1>Popular Courses</h1>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide container " data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row mx-auto">
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div class="card text-dark bg-info" >
+                                    <div class="card-body">
+                                        <h5 class="card-title pt-4"> Free course</h5>
+                                        <p class="card-text pt-4">
+                                            <span class="">Intro to Generative AI</span>
+                                            <br>
+                                            Dive into the many forms of generative AI and learn how we can best use these new technologies!
+                                        </p>
+                                        <a href="payment.html" class="btn btn-primary">Purchase Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div class="card text-dark bg-info" >
+                                    <div class="card-body">
+                                        <h5 class="card-title pt-4">Free course</h5>
+                                        <p class="card-text pt-4">
+                                            <span> Intro to ChatGPT</span>
+                                            <br>
+                                            Learn about ChatGPT, one of the most advanced AI systems available today, and dive into the world of Generative AI.
+                                        </p>
+                                        <a href="payment.html" class="btn btn-primary">Purchase Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div class="card text-dark bg-info" >
+                                    <div class="card-body">
+                                        <h5 class="card-title pt-4">Free course</h5>
+                                        <p class="card-text pt-4">
+                                            <span>Prompt Engineering for Marketing</span>
+                                            <br>
+                                            Leverage AI for marketing using prompt engineering with ChatGPT.
+                                        </p>
+                                        <a href="payment.html" class="btn btn-primary">Purchase Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div class="card text-white bg-warning" >
+                                    <div class="card-body">
+                                        <h5 class="card-title pt-4">Skill path</h5>
+                                        <p class="card-text pt-4">
+                                            <span>Build a Website with HTML, CSS,  Pages</span>
+                                            <br>
+                                            Learn the basics of web development to build your own website.
+                                        </p>
+                                        <a href="payment.html" class="btn btn-primary">Purchase Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div class="card text-white bg-warning" >
+                                    <div class="card-body">
+                                        <h5 class="card-title pt-4">Skill path</h5>
+                                        <p class="card-text pt-4">
+                                            <span>
+                                                Analyze Data with SQL
+                                                <br>
+                                                <br>
+                                            </span>
+                                            Learn to analyze data with SQL
+                                            <br>
+                                            and prepare for technical interviews.
+                                        </p>
+                                        <a href="payment.html" class="btn btn-primary">Purchase Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div class="card text-white bg-warning" >
+                                    <div class="card-body">
+                                        <h5 class="card-title pt-4">Skill path</h5>
+                                        <p class="card-text pt-4">
+                                            <span> Create a Front-End App with React</span>
+                                            <br>
+                                        
+                                            Learn to build front-end web 
+                                          apps with JavaScript and React.
+                                        </p>
+                                        <a href="payment.html" class="btn btn-primary ">Purchase Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div class="card text-white bg-success" >
+                                    <div class="card-body">
+                                        <h5 class="card-title pt-4">Career path</h5>
+                                        <p class="card-text pt-4">
+                                            <span>Front-End Engineer</span>
+                                            <br>
+                                            Front-end engineers work closely with designers to make websites beautiful, functional, and fast.
+                                        </p>
+                                        <a href="payment.html" class="btn btn-primary">Purchase Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div class="card  text-white bg-success" >
+                                    <div class="card-body">
+                                        <h5 class="card-title pt-4">Career path</h5>
+                                        <p class="card-text pt-4">
+                                            <span>
+                                                Full-Stack Engineer
+                                            </span>
+                                            <br>
+                                            A full-stack engineer can get a project done from
+                                            <br>
+                                            start to finish, back-end to front-end.
+                                        </p>
+                                        <a href="payment.html" class="btn btn-primary">Purchase Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4">
+                                <div class="card  text-white bg-success" >
+                                    <div class="card-body">
+                                        <h5 class="card-title pt-4">Career path</h5>
+                                        <p class="card-text pt-4">
+                                            <span> Computer Science</span>
+                                            <br>
+                                            Looking for an introduction to the theory behind programming? Master Python while learning
+                                        </p>
+                                        <a href="payment.html" class="btn btn-primary">Purchase Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    id="prevBtn1"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev"
+                >
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next "
+                    type="button"
+                    id="nextBtn1"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next"
+                >
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- carousel start -->
+        <!--teachers div start -->
+        <div class="color2 ccc">
+            <div class="container teachers">
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-md-6 mt-5">
+                        <img src="https://cdn.kastatic.org/images/lohp/faces_collage_2@2x.png" width="90%" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 col-md-6 mt-5">
+                        <span class="pb-4 ">TEACHERS</span>
+                        <h1>“I’m finally able to truly
+                            <br>
+                            differentiate my
+                            <br>
+                            classroom.
+                    This has
+                            <br> been priceless for my
+                            <br>
+                            students’ engagement.”
+                        </h1>
+                        <p>We empower teachers to support their entire classroom.
+                            <br>
+                            90% of US teachers who have used Academy have
+                            <br>
+                            found us effective.
+                            <br>
+                        </p>
+                        <button type="button" class="btn btn-primary btn-lg">Teachers, start hear</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--teachers div end -->
+<!-- join on div start -->
+<div class="color3">
+    <div class="container">
+        <div class="row join-div">
+            <div class="col-12 col-md-3 col-lg-3">
+                <h2>Join in on
+                    <br>
+                    something big
+                </h2>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 ps-5">
+                <h2>50M
+                    <br>
+                  <span> Learners</span> 
+                </h2>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 ps-5">
+                <h2>190+
+                    <br>
+                    <span>Countries</span>
+                </h2>
+            </div>
+                <div class="col-12 col-md-3 col-lg-3 ps-5">
+                    <h2>3.7B <br>
+                       <span>Code submits</span> 
+                    </h2>
+                </div>
+           
+        </div>
+    </div>
+    <!-- join on div end -->
+
+    <!-- customar review start -->
+       <div class="service text-center  ">
+          <div>
+            <h1>From the Coursera community</h1>
+            <h2>124+ million people have already joined Coursera</h2>
+          </div>
+
+          <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-4 col-12 col-md-4">
+                    <h4>Chitranshee A.</h4>
+                    <span>India</span>
+                    
+                    <p>“Even more important than knowledge is confidence, which I have gained through my learning journey. 
+                        No matter what you are looking to learn, or gain confidence in, Coursera has something for you.”</p>
+                </div>
+
+                <div class="col-lg-4 col-12 col-md-4">
+                    <h4>Carlos C.</h4>
+                    <span>USA</span>
+                    <p>“Earning my IT certificates helped me demonstrate my knowledge to recruiters and enhanced my standing as an applicant. Now, I love my new job in the tech industry;
+                         technology is always evolving, and I continue to learn something every day.”</p>
+                </div>
+
+                <div class="col-lg-4 col-12 col-md-4">
+                    <h4>Anisha R.</h4>
+                    <span>India</span>
+                    <p>“The program totally changed my life. I have this career in front of me now that wasn’t
+                         even in sight before, and it’s what I want to be doing. That’s really powerful.”</p>
+                </div>
+            </div>
+          </div>
+       </div>
+    <!-- customar review end -->
+     <!-- footer div -->
+
+     <footer>
+        <div class="container footer-div mt-5" id="footer">
+            <div class="row">
+                <div class="col-6 col-lg-3 col-md-6">
+                     <h1 class="fw-bold">Subjects</h1>
+                    <p><a href="">AI</a> <br>
+                       <a href=""> Cloud Computing</a><br>
+                       <a href="">Code Foundations</a>  <br>
+                       <a href="">Computer Science</a><br>
+                       <a href="">Cybersecurity</a><br>
+                       <a href="">Data Analytics</a><br>
+                       <a href="">Data Science</a><br>
+                       <a href="">Data Visualization</a><br>
+                       <a href="">Web Design</a><br>
+                       <a href="">Web Development</a><br>
+                       <a href="">Game Development</a><br>
+                       <a href="">DevOps</a><br>
+                </div>
+
+                <div class="col-6 col-lg-3 col-md-6">
+                     <h1 class="fw-bold">Languages
+                    </h1>
+                    <p><a href="">Bash</a><br>
+                        <a href="">C</a><br>
+                        <a href="">C++</a><br>
+                        <a href="">C#</a><br>
+                        <a href="">Go</a><br>
+                        <a href="">HTML & CSS</a><br>
+                        <a href="">Java</a><br>
+                        <a href="">JavaScript</a><br>
+                        <a href="">Swift</a><br>
+                        <a href="">SQL</a><br>
+                        <a href="">R</a><br>
+                        <a href="">Python</a><br>
+                        <a href="">PHP</a><br>
+                        <a href="">Kotlin</a><br>
+                       
+                        </p>
+                </div>
+
+                <div class="col-6 col-lg-3 col-md-6">
+                     <h1 class="fw-bold">Career building
+                    </h1>
+                    <p><a href="">Career paths</a><br>
+                        <a href="">Career services</a><br>
+                        <a href="">Interview prep</a><br>
+                        <a href="">Professional certification</a><br>
+                        <a href="">Full Catalog</a><br>
+                        <a href="">Beta Content</a><br>
+                        <a href="">Roadmap</a><br>
+                       </p>
+                </div>
+
+                <div class="col-6 col-lg-3 col-md-6">
+                     <h1 class="fw-bold">Follow Us
+                    </h1>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100021996673749" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="copyright container-fluid text-center pt-5 ">
+            <p class="pb-5">Copyright made by @ Riju.</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
